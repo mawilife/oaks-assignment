@@ -1,5 +1,5 @@
 import { Inject, Injectable } from "@nestjs/common";
-import { TaskNotFoundException } from "../../exceptions/task-not-found.exeption ";
+import { TaskNotFoundException } from "../../exceptions/task-not-found.exception";
 import { Task } from "../..//models/task.model";
 import { ITaskRepository } from "../repositories/itask.repository";
 

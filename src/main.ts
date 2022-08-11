@@ -1,7 +1,7 @@
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { ValidationException } from './exceptions/validation.exeption';
+import { ValidationException } from './exceptions/validation.exception';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);

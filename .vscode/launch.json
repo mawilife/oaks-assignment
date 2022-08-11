@@ -8,6 +8,7 @@
       "type": "node-terminal",
       "request": "launch",
       "name": "Debug Nest Framework",
+      //"command": "npm run test:e2e",
       "command": "npm run start:debug",
       "cwd": "${workspaceRoot}",
       "envFile": "${workspaceFolder}/.env"

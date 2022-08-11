@@ -1,9 +1,9 @@
 import { Field, InputType, Int } from "@nestjs/graphql";
 import { Type } from "class-transformer";
 import { Min, MinLength, ValidateNested } from "class-validator";
-import { Board } from "src/models/board.model";
-import { Phase } from "src/models/phase.model";
-import { Task } from "src/models/task.model";
+import { Board } from "../../../models/board.model";
+import { Phase } from "../../../models/phase.model";
+import { Task } from "../../../models/task.model";
 
 @InputType("CreateBoardInput")
 export class CreateBoardInput {

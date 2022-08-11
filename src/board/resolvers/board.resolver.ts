@@ -1,5 +1,5 @@
 import { Resolver, Query, Args, Mutation, ResolveField, Parent } from "@nestjs/graphql";
-import { Phase } from "src/models/phase.model";
+import { Phase } from "../../models/phase.model";
 import { Board } from "../../models/board.model";
 import { BoardService } from "../services/board.service";
 import { PhaseService } from "../services/phase.service";

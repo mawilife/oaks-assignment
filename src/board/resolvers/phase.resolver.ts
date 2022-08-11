@@ -1,5 +1,5 @@
 import { Args, Resolver, Query, ResolveField, Parent } from "@nestjs/graphql";
-import { Task } from "src/models/task.model";
+import { Task } from "../../models/task.model";
 import { Phase } from "../../models/phase.model";
 import { PhaseService } from "../services/phase.service";
 import { TaskService } from "../services/task.service";

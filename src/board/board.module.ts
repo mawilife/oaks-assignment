@@ -5,10 +5,8 @@ import { PhaseResolver } from "./resolvers/phase.resolver";
 import { BoardService } from "./services/board.service";
 import { PhaseService } from "./services/phase.service";
 import { TaskService } from "./services/task.service";
-import { TestController } from "./test.controller";
 
 @Module({
-  controllers: [TestController],
 
   imports: [BoardRepositoryModule],
   providers: [

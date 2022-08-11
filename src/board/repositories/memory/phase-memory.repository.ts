@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { Phase } from "../../../models/phase.model";
 import { IPhaseRepository } from "../iphase.repository";
-import { PhaseNotFoundException } from "../../../exceptions/phase-not-found.exeption"
+import { PhaseNotFoundException } from "../../../exceptions/phase-not-found.exception"
 import { MemoryRepositoryHelper } from "./memoryRepositoryHelper";
 
 @Injectable()

@@ -1,5 +1,5 @@
 import { Inject, Injectable } from "@nestjs/common";
-import { PhaseNotFoundException } from "src/exceptions/phase-not-found.exeption";
+import { PhaseNotFoundException } from "../../exceptions/phase-not-found.exception";
 import { Phase } from "../..//models/phase.model";
 import { IPhaseRepository } from "../repositories/iphase.repository";
 import { TaskService } from "./task.service";

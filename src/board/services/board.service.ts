@@ -1,7 +1,7 @@
 import { Inject, Injectable } from "@nestjs/common";
-import { BoardAndTaskInCompatibleException } from "../..//exceptions/board-and-task-incompatible.exeption";
-import { BoardNotFoundException } from "../..//exceptions/board-not-found.exeption";
-import { PreviousPhasesNotCompletedException } from "../../exceptions/previous-phases-not-completed.exeption";
+import { BoardAndTaskInCompatibleException } from "../../exceptions/board-and-task-incompatible.exception";
+import { BoardNotFoundException } from "../../exceptions/board-not-found.exception";
+import { PreviousPhasesNotCompletedException } from "../../exceptions/previous-phases-not-completed.exception";
 import { Board } from "../..//models/board.model";
 import { IBoardRepository } from "../repositories/iboard.repository";
 import { PhaseService } from "./phase.service";
