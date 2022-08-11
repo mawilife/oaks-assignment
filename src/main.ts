@@ -10,7 +10,8 @@ async function bootstrap() {
       return new ValidationException();
     },
   }));
-  console.log(`App running on http://localhost:3000/graphsql`)
-  await app.listen(3000);
+  const port = Number(process.env.port) || 3000;
+  console.log(`App running on http://localhost:${port}/graphsql`)
+  await app.listen(port);
 }
 bootstrap();
